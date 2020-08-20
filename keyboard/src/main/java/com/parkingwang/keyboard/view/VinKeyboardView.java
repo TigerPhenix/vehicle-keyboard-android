@@ -6,7 +6,7 @@ package com.parkingwang.keyboard.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import android.util.Log;
 import android.util.TypedValue;
 

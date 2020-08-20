@@ -33,6 +33,6 @@ android {
 dependencies {
     compileOnly 'com.android.support:support-v4:24.2.0'
 //    api 'androidx.legacy:legacy-support-v4:1.0.0'
-//    api 'com.annimon:stream:1.1.9'
+    api 'com.annimon:stream:1.1.9'
 }
 
