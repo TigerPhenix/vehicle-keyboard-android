@@ -8,7 +8,7 @@ repositories {
     jcenter()
     maven { url "https://jitpack.io" }
 }
-group='com.github.aibaotech'
+group='com.github.TigerPhenix'
 
 //
 //boolean isReleaseBuild = gradle.startParameter.taskNames.contains('bintrayUpload')
@@ -31,9 +31,8 @@ android {
 }
 
 dependencies {
-//    api 'com.android.support:support-v4:25.1.0'
-    api 'androidx.legacy:legacy-support-v4:1.0.0'
-    api 'com.annimon:stream:1.1.9'
-//    testImplementation 'junit:junit:4.12'
+    compileOnly 'com.android.support:support-v4:24.2.0'
+//    api 'androidx.legacy:legacy-support-v4:1.0.0'
+//    api 'com.annimon:stream:1.1.9'
 }
 
